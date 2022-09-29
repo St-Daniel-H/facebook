@@ -3,6 +3,8 @@ import '../css/login.scss';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button'
 import SignUp from './SignUp';
+import {useState} from 'react';
+import { textAlign } from '@mui/system';
 function LoginPage(){
   //for the signUp tab
   React.useEffect(() => {
@@ -42,11 +44,11 @@ const menuHandler = () => {
             label="Email or Phone Number" 
             variant="outlined"
             inputProps={{style: {fontSize: 30}}} 
-            inputlabelprops={{style: {fontSize: 15}}}
+            inputlabelprops={{style: {fontSize: 5}}}
             />
             <TextField className="userInfo" id="outlined-basic"  label="Password" variant="outlined"
              inputProps={{style: {fontSize: 30}}} 
-             inputlabelprops={{style: {fontSize: 15}}} />
+             inputlabelprops={{style: {fontSize: 5}}} />
             <Button variant="contained"
             ><p>Log In</p></Button>
            <a href=""><b>Forgot Password?</b></a></div>

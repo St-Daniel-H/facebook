@@ -9,12 +9,12 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button'
 import '../css/SignUp.scss';
 function SignUp(){
-   function Close(){
-     return(
-      <div></div>
-     )
-   }
-   
+ function close(){
+  let element =  document.querySelector("#table");
+  const element2 = document.querySelector('.LoginPage');
+  element2.style.opacity = "1";
+  element.classList.add("hidden");
+ }
     return(
         <div id="SignUpPage">
             <div id="table-welcome">
@@ -23,7 +23,7 @@ function SignUp(){
                <p>It's quick and easy</p>
                </div>
                <div>
-               <button onClick={Close} type="button" className="btn-close">
+               <button onClick={close} type="button" className="btn-close">
                  <span className="icon-cross"></span>
                </button>
                </div>
