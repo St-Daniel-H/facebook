@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+}
+#SignUpPage{
+    position: relative;
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2%;
+    height:600px;
+    max-width:700px;
+    margin:30px;
+    height: 80vh;
+    width: 40vw;
+    @media(max-width:950px){
+       width:96%;
+       margin-top: 30px;
+       margin:2px auto;
+       max-width: 700px;
+       margin: 3rem auto;  
+       height:650px;
+    }
+   
+ }
+ #end{
+    margin-left:10px;
+ }
+ #table-welcome{
+    margin:0;
+    padding:0;
+    margin-left:10px;
+    border-bottom: 2px solid #bababa;
+    margin:auto;
+    margin-bottom:20px;
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    button{
+        margin-top:10px;
+    }
+ }
+ #table-forum{
+    display:grid;
+    margin:10px;
+    #name{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin:10px;
+        width:95%;  
+        #namename{
+            padding-right:5px;
+            width:50%;
+        }
+        #surname{
+            width:50%; 
+        }
+        
+ }
+ #dateOfBirth{
+    margin:10px;
+    width:95%;
+}  
+  
+}
+#SignUpButton{
+    margin: 0;
+  position: absolute;
+  left: 50%;
+  width:200px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    text-transform: unset !important;
+    p{
+      font-size:25px;
+      font-size: bold;
+    }
+    margin-top:50px;
+    background-color: green;
+}
+//close button
+@mixin cross($size: 20px, $color: currentColor, $thickness: 1px) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    position: relative;
+    width: $size;
+    height: $size;
+  
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      top: ($size - $thickness) / 2;
+      left: 0;
+      right: 0;
+      height: $thickness;
+      background: $color;
+      border-radius: $thickness;
+    }
+  
+    &:before {
+      transform: rotate(45deg);
+    }
+  
+    &:after {
+      transform: rotate(-45deg);
+    }
+  
+    span {
+      display: block;
+    }
+  
+  }
+  
+  
+  // Example 1.
+  .btn-close {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: hsl(216, 100, 50);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 150ms;
+    
+    .icon-cross {
+      @include cross(30px, #fff, 6px);   
+    }
+    
+    &:hover,
+    &:focus {
+      transform: rotateZ(90deg);
+      background: hsl(216, 100, 40);
+    }
+  
+  }
+  .hidden{
+    display:none;
+  }
