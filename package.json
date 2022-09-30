@@ -1,5 +1,5 @@
 {
-  "homepage": "https://st-daniel-h.github.io/FaceBookClone/",
+
   "name": "facebook",
   "version": "0.1.0",
   "private": true,
@@ -50,5 +50,6 @@
   },
   "devDependencies": {
     "sass": "^1.54.9"
-  }
+  },
+    "homepage": "https://st-daniel-h.github.io/FaceBookClone/",
 }
