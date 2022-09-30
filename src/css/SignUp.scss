@@ -5,17 +5,19 @@
 #SignUpPage{
     position: relative;
     position: absolute;
-    top: 50%;  
+    top:45%;  
     left: 50%; 
     transform: translate(-50%, -50%);
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 2%;
-    height:600px;
     max-width:700px;
     margin:30px;
-    height: 80vh;
+    height: 90vh;
     width: 40vw;
+    @media(min-width:1200px){
+      height: 75vh;
+    }
     @media(max-width:950px){
        width:96%;
        margin-top: 30px;
@@ -79,7 +81,7 @@
       font-size:25px;
       font-size: bold;
     }
-    margin-top:50px;
+    margin-top:40px;
     background-color: green;
 }
 //close button
