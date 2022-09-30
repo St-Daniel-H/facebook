@@ -1,4 +1,5 @@
 {
+  "homepage": "https://st-daniel-h.github.io/FaceBookClone/",
   "name": "facebook",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "date.js": "^0.3.3",
     "dayjs": "^1.11.5",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
