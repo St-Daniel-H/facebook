@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FaceBookClone/static/css/main.4f4eb709.css",
+    "main.js": "/FaceBookClone/static/js/main.2cdd1511.js",
+    "static/js/787.a46efa3f.chunk.js": "/FaceBookClone/static/js/787.a46efa3f.chunk.js",
+    "index.html": "/FaceBookClone/index.html",
+    "main.4f4eb709.css.map": "/FaceBookClone/static/css/main.4f4eb709.css.map",
+    "main.2cdd1511.js.map": "/FaceBookClone/static/js/main.2cdd1511.js.map",
+    "787.a46efa3f.chunk.js.map": "/FaceBookClone/static/js/787.a46efa3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f4eb709.css",
+    "static/js/main.2cdd1511.js"
+  ]
+}
